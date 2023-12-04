@@ -1,0 +1,54 @@
+@import url("./imports/variables/colors.css");
+@import url("./imports/variables/fonts.css");
+@import url("./imports/variables/variables.css");
+@import url("./imports/links.css");
+
+body {
+    font-family: "Barlow", sans-serif;
+    background-color: var(--grey);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ul li {
+    list-style: none;
+    text-indent: 0;
+}
+
+header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 570;
+}
+
+nav {
+    display: flex;
+    gap: 5rem;
+    text-transform: uppercase;
+}
+
+.events {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.events > * {
+    display: flex;
+}
+
+.events img {
+    max-width: 100%;
+}
+
+/* Fonts */
+
+h1 {
+    font-size: var(--l-heading-desktop);
+    letter-spacing: var(--letter-spacing);
+}

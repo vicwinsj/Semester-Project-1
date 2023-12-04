@@ -1,0 +1,7 @@
+.cta {
+    border: var(--border-desktop);
+    padding: 1rem;
+    font-family: "Victor Mono", serif;
+    text-transform: lowercase;
+    margin: 1rem;
+}

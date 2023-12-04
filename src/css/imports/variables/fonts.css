@@ -1,0 +1,17 @@
+/* Font sizes */
+
+:root {
+    --l-heading-desktop: 6rem;
+    --m-heading-desktop: 3rem;
+    --s-heading-desktop: 2rem;
+    --xl-body-desktop: 2rem;
+    --l-body-desktop: 1.25rem;
+    --m-body-desktop: 1rem;
+    --s-body-desktop: 0.75rem;
+}
+
+/* Transformations */
+
+:root {
+    --letter-spacing: 0.2rem;
+}

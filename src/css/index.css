@@ -1,0 +1,7 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    border: var(--border-desktop);
+    padding: 1rem;
+    background-color: var(--yellow);
+}
