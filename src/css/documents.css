@@ -1,0 +1,16 @@
+@import url("./imports/variables/colors.css");
+@import url("./imports/variables/fonts.css");
+@import url("./imports/variables/variables.css");
+@import url("./imports/links.css");
+
+.documents {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.documents ul {
+    list-style: inside;
+    padding-left: 1rem;
+}

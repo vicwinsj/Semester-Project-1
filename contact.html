@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Science Fosen</title>
+    <meta
+      name="description"
+      content="Whether you're a parent, teacher, or a curious young scientist, we want to make sure your experience with us is as smooth as possible. Feel free to reach out to us using the contact information."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/contact.css" />
+    <link rel="stylesheet" href="src/css/media.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img
+          src="images/science-fosen-logo-green.svg"
+          alt="Logo of Science Fosen"
+          class="logo"
+      /></a>
+      <div class="header">
+        <div class="search">
+          <img src="images/mingcute_search-line.svg" />
+        </div>
+        <a href="visit.html" class="cta ticket">Buy ticket</a>
+        <div class="menu">
+          <input type="checkbox" id="menu-checkbox" />
+          <label id="menu-label" for="menu-checkbox"></label>
+          <nav class="l-font">
+            <a href="visit.html">Visit</a>
+            <a href="exhibitions.html">Exhibitions</a>
+            <a href="explore.html">Explore</a>
+            <a href="get-involved.html">Get Involved</a>
+            <a href="contact.html" class="active">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="banner contact-banner">
+        <h1>Contact us</h1>
+      </section>
+      <div class="contact">
+        <section class="contact--content m-font">
+          <p>
+            Whether you're a parent, teacher, or a curious young scientist, we
+            want to make sure your experience with us is as smooth as possible.
+            Feel free to reach out to us using the contact information below:
+          </p>
+          <p class="bold no-margin-b">General Inquiries</p>
+          <p class="no-margin-t">
+            Have a general question about our exhibits, programs, or events?
+            Shoot us an email at science@fosen.com or give us a call at +47 99
+            99 99 99.
+          </p>
+          <p class="bold no-margin-b">School and Group Bookings</p>
+          <p class="no-margin-t">
+            Planning a school trip or group visit? We offer special packages and
+            guided tours for educational groups. Contact our group bookings team
+            at groups@fosen.com for more information.
+          </p>
+          <p class="bold no-margin-b">Membership and Support</p>
+          <p class="no-margin-t">
+            Interested in becoming a member or supporting our museum? Connect
+            with our membership team at membership@fosen.com to explore the
+            perks of joining our community.
+          </p>
+          <p class="bold no-margin-b">Event Inquiries</p>
+          <p class="no-margin-t">
+            Hosting a birthday party or special event at the museum? Our events
+            team is here to help! Reach out to events@fosen.com for details on
+            available packages and booking information.
+          </p>
+          <p>You may as well feel free to use the contact form below:</p>
+        </section>
+        <section class="contact--info l-font">
+          <div class="contact--info-content">
+            <div class="contact--info-content1">
+              <div>
+                <p class="bold">Phone:</p>
+                <p>+47 99 99 99 99</p>
+              </div>
+              <div>
+                <p class="bold">Visiting Address:</p>
+                <p>Fosenveien 3, 7090 FOSEN</p>
+              </div>
+            </div>
+            <div class="contact--info-content2">
+              <div>
+                <p class="bold">Mail Address:</p>
+                <p>Fosenveien 3, 7090 FOSEN</p>
+              </div>
+              <div>
+                <p class="bold">Email Address:</p>
+                <p>science@fosen.com</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <form>
+          <div class="fields">
+            <fieldset>
+              <input
+                type="text"
+                id="name"
+                class="m-font"
+                name="name"
+                placeholder="Name"
+                aria-labelledby="name"
+                required
+              />
+              <label for="name" class="contact-label">Name</label>
+            </fieldset>
+            <fieldset>
+              <input
+                type="email"
+                id="email"
+                class="m-font"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <label for="email" class="contact-label">Email</label>
+            </fieldset>
+            <fieldset>
+              <input
+                type="text"
+                id="topic"
+                class="m-font"
+                name="topic"
+                placeholder="Topic"
+                required
+              />
+              <label for="topic" class="contact-label">Topic</label>
+            </fieldset>
+            <fieldset>
+              <textarea
+                id="inquiry"
+                class="m-font"
+                name="inquiry"
+                placeholder="Inquiry"
+                required
+              ></textarea>
+              <label for="inquiry" class="contact-label">Inquiry</label>
+            </fieldset>
+          </div>
+          <div class="button">
+            <button class="cta">Submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-1 l-font">
+        <div class="footer-menu1">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-and-conditions.html">Terms & Conditions</a>
+        </div>
+      </div>
+      <div class="footer-2 l-font">
+        <div class="footer-menu2">
+          <a href="contact.html">Contact</a>
+          <a href="get-involved.html">Contribute</a>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="socials">
+          <img src="./images/facebook.svg" />
+          <img src="./images/instagram.svg" />
+          <img src="./images/tiktok.svg" />
+        </div>
+        <div>
+          <img
+            src="./images/science-fosen-meta-logo.svg"
+            alt="Alternate logo of Science Fosen"
+            class="footer-logo"
+          />
+        </div>
+        <p class="s-font">©Science Fosen 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>

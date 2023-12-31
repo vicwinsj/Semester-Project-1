@@ -1,7 +1,25 @@
+a {
+    text-decoration: none;
+    color: var(--black);
+  }
+
 .cta {
     border: var(--border-desktop);
-    padding: 1rem;
-    font-family: "Victor Mono", serif;
+    padding: .6rem;
+    font-family: var(--monospaced);
     text-transform: lowercase;
-    margin: 1rem;
+    text-align: center;
+    margin: 0;
+    color: var(--green);
+    background-color: var(--white);
+    font-size: var(--m-body-mobile);
+    cursor: pointer;
+    width: 6.25rem;
+    transition: all .3s;
+}
+
+.cta:hover {
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: var(--no-border-desktop);
 }

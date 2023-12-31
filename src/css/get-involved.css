@@ -1,0 +1,84 @@
+@import url("./imports/variables/colors.css");
+@import url("./imports/variables/fonts.css");
+@import url("./imports/variables/variables.css");
+@import url("./imports/links.css");
+
+.get-involved-banner {
+    background-image: linear-gradient(
+        to top,
+        rgb(0, 0, 0, 0.7),
+        rgb(255, 255, 255, 0)
+      ),
+      url(../../images/ian-dooley-ZLBzMGle-nE-unsplash.jpg);
+  }
+
+  .get-involved {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 33rem);
+    gap: 1.8rem;
+    grid-template-areas:
+      "volunteer"
+      "volunteer-img"
+      "internships"
+      "internships-img"
+      "support"
+      "support-img";
+    max-width: 100%;
+    margin: 1.8rem 0;
+  }
+
+  .get-involved--content .cta {
+      text-align: center;
+  }
+
+  .get-involved > * {
+      max-height: 100%;
+      max-width: 100%;
+  }
+
+  .get-involved img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+
+  .get-involved--content {
+      background-color: var(--beige);
+      padding: 1.8rem;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .get-involved--content > * {
+      margin-bottom: 1.8rem;
+  }
+
+  .volunteer {
+      grid-area: volunteer;
+  }
+
+  .volunteer-img {
+      grid-area: volunteer-img;
+      margin-right: 1.8rem;
+  }
+
+  .internships {
+      grid-area: internships;
+  }
+
+  .internships-img {
+      grid-area: internships-img;
+      margin-left: 1.8rem;
+}
+
+  .support {
+      grid-area: support;
+  }
+
+  .support-img {
+      grid-area: support-img;
+      margin-right: 1.8rem;
+  }

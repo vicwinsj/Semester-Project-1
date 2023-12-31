@@ -1,0 +1,117 @@
+@import url("./imports/variables/colors.css");
+@import url("./imports/variables/fonts.css");
+@import url("./imports/variables/variables.css");
+@import url("./imports/links.css");
+
+.exhibitions-banner {
+  background-image: linear-gradient(
+      to top,
+      rgb(0, 0, 0, 0.7),
+      rgb(255, 255, 255, 0)
+    ),
+    url(../../images/rodolfo-cuadros-WNk-f-TnZDw-unsplash.jpg);
+}
+
+.news h2 {
+    margin: 1.8rem;
+}
+
+.exhibitions {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto repeat(10, 22rem);
+  gap: 1.8rem;
+  grid-template-areas:
+    "h2"
+    "img1"
+    "content1"
+    "img2"
+    "content2"
+    "img3"
+    "content3"
+    "img4"
+    "content4"
+    "img5"
+    "content5";
+  max-width: 100%;
+  margin: 1.8rem 0;
+}
+
+.exhibitions h2 {
+  grid-column: 1/-1;
+  grid-row: 1;
+  grid-area: h2;
+  margin-left: 1.8rem;
+}
+
+.exhibitions h3 {
+  text-align: center;
+}
+
+.exhibitions > * {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.exhibitions--content {
+  background-color: var(--beige);
+  padding: 1.8rem;
+}
+
+.content1 {
+  grid-area: content1;
+}
+
+.content2 {
+  grid-area: content2;
+}
+
+.content3 {
+  grid-area: content3;
+}
+
+.content4 {
+  grid-area: content4;
+}
+
+.content5 {
+  grid-area: content5;
+}
+
+.img1 {
+  grid-area: img1;
+  margin-right: 1.8rem;
+}
+
+.img2 {
+  grid-area: img2;
+  margin-left: 1.8rem;
+}
+
+.img3 {
+  grid-area: img3;
+  margin-right: 1.8rem;
+}
+
+.img4 {
+  grid-area: img4;
+  margin-left: 1.8rem;
+}
+
+.img5 {
+  grid-area: img5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 1.8rem;
+}
+
+.img5 img {
+    object-position: center 80%;
+}
+
+.exhibitions img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
